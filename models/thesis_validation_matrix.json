@@ -1,0 +1,32 @@
+{
+  "thesis_defense_title": "Thermodynamic Self-Sufficiency and Cyber-Physical Resiliency in Smackover DLE Repurposing",
+  "author": "healthearthack",
+  "timestamp_utc": "2026-09-20T06:41:34.350290+00:00",
+  "thesis_hypotheses_validated": true,
+  "metrics": {
+    "net_surplus_electric_power_mw_e": 1.949,
+    "energy_return_on_investment_eroi": 11.38,
+    "lifecycle_carbon_delta_kg_co2e_per_kg_lce": -14.82,
+    "is_net_negative_emissions": true,
+    "annual_lce_metric_tons": 10535.7
+  },
+  "thermodynamics": {
+    "total_mass_flow_kg_s": 195.0,
+    "delta_t_celsius": 75.0,
+    "thermal_power_extracted_mw_th": 55.282,
+    "gross_electric_generation_mw_e": 7.463
+  },
+  "lithium_extraction": {
+    "elemental_lithium_yield_g_s": 66.066,
+    "lce_production_kg_hr": 1266.01,
+    "annual_lce_metric_tons": 10535.7,
+    "dle_parasitic_power_draw_mw_e": 5.064
+  },
+  "cyber_physical_guard": {
+    "model_expected_whp_bar": 15.9,
+    "observed_sensor_whp_bar": 15.91,
+    "residual_error_bar": 0.01,
+    "nist_sp800_82_status": "INVARIANT_VERIFIED_AUTHENTIC",
+    "cyber_physical_interlock": "NORMAL_OPERATION"
+  }
+}

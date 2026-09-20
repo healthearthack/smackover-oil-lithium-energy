@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smackover-oil-lithium-energy"
+version = "2.4.0"
+description = "Smackover Subsurface Hydraulics, Lithium DLE & Geothermal Enthalpy Core (Thesis Defense Engine)"
+readme = "README.md"
+authors = [{ name = "Doctoral Candidate healthearthack", email = "admin@thepolka.cloud" }]
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "matplotlib>=3.7.0"
+]
