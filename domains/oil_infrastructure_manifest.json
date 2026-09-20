@@ -1,0 +1,35 @@
+{
+  "tld": ".oil",
+  "authority": "healthearthack / Metaknews LLC",
+  "root_gateway": "https://go.thepolka.cloud/telemetry/oil",
+  "timestamp_utc": "2026-09-20T08:30:00Z",
+  "registered_zones": [
+    {
+      "fqdn": "smackover.oil",
+      "purpose": "Upper Jurassic Smackover Reservoir Pressure Invariants",
+      "target_repository": "healthearthack/smackover-oil-lithium-energy",
+      "downhole_depth_m": 3200.0,
+      "sensor_protocol": "Modbus TCP / IEEE C37.118",
+      "status": "ONLINE_ACTIVE"
+    },
+    {
+      "fqdn": "wellbore.oil",
+      "purpose": "Depleted Petroleum Wellbore Mechanical Integrity Logs",
+      "permit_type": "EPA Class II to Class V Re-entry",
+      "capex_savings_usd": 6700000.0,
+      "status": "VERIFIED_SOUND"
+    },
+    {
+      "fqdn": "telemetry.oil",
+      "purpose": "Real-Time Downhole Fluid Viscosity and Darcy Flow Stream",
+      "mass_flow_kg_s": 195.0,
+      "status": "STREAMING_NOMINAL"
+    },
+    {
+      "fqdn": "thepolka.oil",
+      "purpose": "High-Enthalpy Geothermal Enthalpy Transfer Gateway",
+      "thermal_rating_mw_th": 55.28,
+      "status": "SYNCHRONIZED"
+    }
+  ]
+}
